@@ -12,12 +12,12 @@ git reset --hard origin/main
 git add .
 git commit -m "Complete project setup for Vercel"
 
-4. Force push:
-git push origin main --force
+4. Force push with token:
+git push https://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@github.com/fish11112222/isus.git main --force
 
 5. หาก error ยังอยู่ ให้สร้าง repo ใหม่:
 - ไป GitHub สร้าง repo ใหม่ชื่อ "thai-chat-app" 
 - รัน: git remote set-url origin https://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@github.com/fish11112222/thai-chat-app.git
-- รัน: git push origin main
+- รัน: git push https://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@github.com/fish11112222/thai-chat-app.git main --force
 
 ลองทีละขั้นตอนแล้วบอกผลนะครับ
